@@ -1,0 +1,108 @@
+html{
+    background-image: url(/Images/white-wall-texture.jpg) ;
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+
+}
+body h1{
+    text-align: center;
+    font-size: 100px;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 30rem;
+    margin: auto;
+    margin-top: 100px;   
+    color: #F8C630;
+    border-bottom: solid 8px #000000;
+    border-top:solid 8px #000000 ;
+}
+header{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: large;
+}
+header a{
+    align-items: center;
+    justify-content: space-evenly;
+    transition: 300ms;
+    font-size: large;
+    border-bottom: solid 2px #F8C630;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+header a:hover {
+    font-size: 25px;
+}
+.img{
+    margin: 3rem;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.main{  
+    display: flex;
+    align-items: center;
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,1) 81%, rgba(255,255,255,1) 100%);
+    width: 95vw;
+    height: 200px;
+    justify-content: space-between;
+    border-radius: 30px;
+    margin: auto;
+}
+.main img{
+    margin-top: 10px;
+    border-radius: 110%;
+    justify-content: space-between;
+    padding: 20px;
+    position:initial;
+    align-items: center;
+    align-content: center;
+}
+.main img:hover{
+    cursor: pointer;
+}
+.main .content img {
+    height: 180px;
+    border-radius: 10%;
+}
+.footer{
+    display: flex;
+    margin-top: 40px;
+    padding: 30px;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center  ;
+    }
+
+.product{
+    width: 500px;
+    margin: 100px;
+    text-align: center;
+    justify-content: center
+    ;
+}
+.product img{
+    height: 250px;
+    width: 250px;
+}
+.product h2{
+    margin: 0px;
+    border-bottom: solid 6px #F8C630 ;
+}
+.product h1{
+    font-size: 50px;
+    width: auto;
+    margin: 10px ;
+    border-bottom: none;
+    border-top: none;
+    color: black;
+}
